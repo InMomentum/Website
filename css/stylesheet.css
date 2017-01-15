@@ -1,0 +1,29 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    background: url('../img/coffee-820016_2560.jpg') no-repeat left center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.container {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.content {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0px 30px;
+    text-align: center;
+}
+
+img.logo {
+    width: 100%;
+    max-width: 400px;
+}
